@@ -19,7 +19,7 @@ class Pomodoro:
 		time.sleep(1)
 
 	def work(self):
-		timer = 5*60
+		timer = 35*60
 		while timer >= 0:
 			pomo.work_break(timer)
 			if timer == 0:
